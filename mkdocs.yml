@@ -52,4 +52,8 @@ nav:
 - Home: index.md
 - Offensive: 
   - Spacing Movement:
-    - Screen Variations: offensive/spacing-movement/screen-variations.md
+    - Screen Variations:
+      - Flare: offensive/spacing-movement/screens/flare.md
+      - Staggered: offensive/spacing-movement/screens/staggered.md
+      - Elevator: offensive/spacing-movement/screens/elevator.md
+      - Hammer: offensive/spacing-movement/screens/hammer.md
