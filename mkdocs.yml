@@ -1,0 +1,55 @@
+site_name: Insight Lab Docs
+site_url: https://devt-insights.github.io/insight-lab-docs/
+site_author: Elie Daher
+
+repo_name: devt-insights/insight-lab-docs
+repo_url: https://github.com/devt-insights/insight-lab-docs
+
+theme:
+  name: material
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - navigation.top
+    - search.suggest
+    - search.highlight
+    - content.tabs.link
+    - content.code.annotation
+    - content.code.copy
+  palette:
+    - media: "(prefers-color-scheme)"
+      toggle:
+        icon: material/link
+        name: Switch to light mode
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/toggle-switch
+        name: Switch to dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: black
+      accent: indigo
+      toggle:
+        icon: material/toggle-switch-off
+        name: Switch to system preference
+  font:
+    text: Roboto
+    code: Roboto Mono
+
+plugins: 
+  - search
+
+markdown_extensions:
+  - attr_list
+  - md_in_html
+  - pymdownx.blocks.caption
+  - toc
+
+nav:
+- Home: index.md
+- Offensive: 
+  - Spacing Movement:
+    - Screen Variations: offensive/spacing-movement/screen-variations.md
